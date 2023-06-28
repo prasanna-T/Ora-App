@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundemer3"
+    android:id="@+id/mainlay"
+    android:orientation="vertical"
+
+
+    tools:context=".Emergency">
+
+        <ImageView
+            android:id="@+id/emere"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:transitionName="logo_image"
+            android:background="@drawable/emerge" />
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLICK TO CALL"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#111"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_down3"/>
+
+<com.nightonke.boommenu.BoomMenuButton
+    android:id="@+id/boommenu"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    app:bmb_normalColor="#FF0101"
+    app:bmb_buttonRadius="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#111"
+        android:text="\tEMERGENCY \n\t NUMBERS"
+        android:textStyle="bold"/>
+</com.nightonke.boommenu.BoomMenuButton>
+
+
+</LinearLayout>

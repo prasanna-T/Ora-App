@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/v">
+    <ImageView
+        android:id="@+id/whe"
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:transitionName="logo_image"
+        android:background="@drawable/wheel" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:transitionName="logo_text"
+            android:id="@+id/p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="O"
+            android:textColor="#00BCD4"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/n"
+            android:transitionName="logo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="n"
+            android:textColor="#A4FF3B"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\tR"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:textColor="#00BCD4"
+            android:fontFamily="sans-serif-condensed"/>
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="oad"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:textColor="#A4FF3B"
+            android:fontFamily="sans-serif-condensed"/>
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\tA"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:textColor="#00BCD4"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:id="@+id/z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ssistance"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:textColor="#A4FF3B"
+            android:fontFamily="sans-serif-condensed"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
